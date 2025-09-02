@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dharani | Cybersecurity Specialist Portfolio</title>
+  <style>
+    /* ===== Global Styles ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    body {
+      background-color: #0a0a0a;
+      color: #f4f4f4;
+      line-height: 1.6;
+    }
+    a {
+      color: #00ff99;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    a:hover {
+      color: #00cc77;
+    }
+
+    /* ===== Navbar ===== */
+    nav {
+      background: #111;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      border-bottom: 2px solid #00ff99;
+    }
+    nav h1 {
+      font-size: 1.5rem;
+      color: #00ff99;
+    }
+    nav ul {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+
+    /* ===== Hero Section ===== */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+      text-align: center;
+      background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      color: #00ff99;
+    }
+    .hero p {
+      max-width: 600px;
+      margin: 1rem auto;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      background: #00ff99;
+      color: #111;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #00cc77;
+    }
+
+    /* ===== Sections ===== */
+    section {
+      padding: 3rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      color: #00ff99;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #1c1c1c;
+      padding: 1.5rem;
+      border-radius: 10px;
+      border: 1px solid #333;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #00ff99;
+    }
+
+    /* ===== Contact ===== */
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      max-width: 600px;
+      margin: auto;
+    }
+    .contact input, .contact textarea {
+      padding: 0.8rem;
+      border: none;
+      border-radius: 5px;
+      outline: none;
+    }
+    .contact button {
+      background: #00ff99;
+      color: #111;
+      padding: 0.8rem;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .contact button:hover {
+      background: #00cc77;
+    }
+
+    /* ===== Footer ===== */
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #111;
+      margin-top: 2rem;
+      border-top: 2px solid #00ff99;
+    }
+  </style>
+</head>
+<body>
+  <!-- ===== Navbar ===== -->
+  <nav>
+    <h1>Dharani | CyberSec Portfolio</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero">
+    <h2>Hi, I'm Dharani — Cybersecurity Specialist</h2>
+    <p>Protecting systems, networks, and data from cyber threats with expertise in penetration testing, network defense, and digital forensics.</p>
+    <a href="#contact" class="btn">Hire Me</a>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I'm Dharani, a cybersecurity professional with hands-on experience in ethical hacking,
+      vulnerability assessment, and secure system design. I aim to help organizations
+      strengthen their digital security posture against evolving threats.
+    </p>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills">
+    <h2>Skills & Expertise</h2>
+    <div class="grid">
+      <div class="card">🔐 Ethical Hacking & Penetration Testing</div>
+      <div class="card">🌐 Network Security & Firewalls</div>
+      <div class="card">🛡️ Incident Response & Digital Forensics</div>
+      <div class="card">☁️ Cloud Security (AWS, Azure)</div>
+      <div class="card">🔍 Vulnerability Assessment</div>
+      <div class="card">⚙️ SIEM Tools (Splunk, Wireshark)</div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>🔎 Web App Penetration Test</h3>
+        <p>Performed penetration testing on a web application, identified critical vulnerabilities, and provided remediation steps.</p>
+      </div>
+      <div class="card">
+        <h3>🛡️ SOC Monitoring System</h3>
+        <p>Developed a Security Operations Center dashboard to monitor real-time network threats.</p>
+      </div>
+      <div class="card">
+        <h3>☁️ Cloud Security Audit</h3>
+        <p>Conducted a full-scale audit of AWS cloud infrastructure, implementing IAM best practices.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact ===== -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="sendMessage(event)">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="status" style="text-align:center; margin-top:1rem;"></p>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>&copy; 2025 Dharani | Cybersecurity Specialist | Built with ❤️</p>
+  </footer>
+
+  <!-- ===== JavaScript ===== -->
+  <script>
+    function sendMessage(event) {
+      event.preventDefault();
+      document.getElementById("status").innerText =
+        "✅ Your message has been sent successfully!";
+      document.querySelector("form").reset();
+    }
+  </script>
+</body>
+</html>
