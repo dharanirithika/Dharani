@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dharani P - Student Academic Portfolio</title>
+  <style>
+    /* ---------- CSS STYLING ---------- */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #333;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #4CAF50;
+    }
+
+    section {
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #4CAF50;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+
+    .card {
+      background: white;
+      margin: 15px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: white;
+      margin-top: 30px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin-top: 10px;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ---------- HEADER ---------- -->
+  <header>
+    <h1>Student Academic Portfolio</h1>
+    <p>By: Dharani P</p>
+  </header>
+
+  <!-- ---------- NAVIGATION ---------- -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#academics">Academics</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ---------- ABOUT SECTION ---------- -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>Hello! I am <b>Dharani P</b>, a Computer Science student passionate about coding, problem-solving, and building real-world projects. I aim to grow my skills and contribute to the tech industry.</p>
+    </div>
+  </section>
+
+  <!-- ---------- ACADEMICS ---------- -->
+  <section id="academics">
+    <h2>Academics</h2>
+    <div class="card">
+      <ul>
+        <li>B.Sc. Computer Science - XYZ College (2022–2025) - CGPA: 8.9</li>
+        <li>Higher Secondary - ABC School (2020–2022) - Percentage: 92%</li>
+        <li>High School - ABC School (2019–2020) - Percentage: 95%</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ---------- PROJECTS ---------- -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>A personal website built with HTML, CSS, and JavaScript to showcase academic and personal achievements.</p>
+    </div>
+    <div class="card">
+      <h3>Library Management System</h3>
+      <p>A Java project with MySQL backend to manage books, students, and transactions efficiently.</p>
+    </div>
+  </section>
+
+  <!-- ---------- SKILLS ---------- -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li>Programming: Java, Python, C</li>
+        <li>Web: HTML, CSS, JavaScript</li>
+        <li>Database: MySQL, MongoDB</li>
+        <li>Other: Problem-solving, Teamwork</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ---------- CONTACT ---------- -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+      <p>Email: dharani@example.com</p>
+      <p>Phone: +91 9876543210</p>
+      <p>GitHub: <a href="https://github.com/username" target="_blank">github.com/username</a></p>
+      <button onclick="showThanks()">Say Hi</button>
+    </div>
+  </section>
+
+  <!-- ---------- FOOTER ---------- -->
+  <footer>
+    <p>© 2025 Dharani P | Student Academic Portfolio</p>
+  </footer>
+
+  <!-- ---------- JAVASCRIPT ---------- -->
+  <script>
+    function showThanks() {
+      alert("Thank you for visiting Dharani's portfolio!");
+    }
+  </script>
+
+</body>
+</html>
